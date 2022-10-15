@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contener{
+    background-image: url(../src/benar.jpg);
+}
+nav{
+    display: flex;
+    /* margin: auto; */
+}
+ul {
+    list-style: none;
+    padding-left: 50%;
+}
+nav ul li{
+    float: right;
+    
+}
+nav ul li a{
+    padding: 20px 30px 0;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+nav ul li a::before{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 0;
+    background-color: aquamarine;
+    transition: 0.5s;
+    
+}
+nav ul li a:hover::before{
+    width: 100%;
+
+}
