@@ -2,14 +2,16 @@
     margin: 0;
     padding: 0;
 }
+
 .contener{
-    background-image: url(../src/benar.jpg);
+    background-image: url(../src/banner.jpg);
     width: 100%;
     height: 700px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 nav{
     display: flex;
     width: 100%;
@@ -17,24 +19,27 @@ nav{
     align-items: center;
     justify-content: space-between;
 }
+
 nav img{
-    padding-left: 50px;
+    padding-left: 30px;
 }
 ul {
     list-style: none;
     padding-right: 70px;
 }
+
 nav ul li{
     float: right;
-    
 }
+
 nav ul li a{
     padding: 20px;
     text-decoration: none;
     display: inline-block;
     position: relative;
-    color: rgb(7, 24, 80);
+    color: rgb(189, 255, 220);
 }
+
 nav ul li a::before{
     position: absolute;
     content: '';
@@ -42,18 +47,43 @@ nav ul li a::before{
     left: 0;
     height: 5px;
     width: 0;
-    background-color: rgb(7, 24, 80);
+    background-color: rgb(189, 255, 220);
     transition: 0.5s;
     
 }
+
 nav ul li a:hover::before{
     width: 100%;
 
 }
+
 .benar{
     text-align: center;
+    padding-top: 5%;
 }
+
 .benar p{
+    margin: auto;
+    color: rgb(189, 255, 220);
     text-align: center;
     width: 50%;
+    padding-top: 2%;
+    font-size: 30px;
+}
+
+.benar h1{
+    margin: auto;
+    color: rgb(189, 255, 220);
+    font-size: 50px;
+
+}
+
+.benar a{
+    text-decoration: none;
+    background-color: rgb(189, 255, 220);
+    color: black;
+    font-weight: 800;
+    margin-top: 40Spx;
+    padding: 12px 50px;
+    border-radius: 20px;
 }
