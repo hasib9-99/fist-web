@@ -122,3 +122,28 @@ nav ul li a:hover::before{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.third-section{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(63, 51, 108, 0.771);
+    position: relative;
+}
+.part{
+    width: 30%;
+    height: 50%;
+    border-radius: 50px;
+}
+.ast{
+    background-color: #3498DB;
+    position: absolute;
+    top: -25%;
+    right: 8%;
+}
+.bst{
+    background-color: #3498DB;
+    position: absolute;
+    top: -25%;
+    right: 60%;
+}
+
